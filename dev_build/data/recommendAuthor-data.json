@@ -1,0 +1,62 @@
+[
+	{
+		"avatar":"/user/avatar/avatar00001.jpeg",
+		"nickname": "星星心里的鱼",
+		"pickupTotal": 200,
+		"interest": "壁纸"
+	},
+	{
+		"avatar":"/user/avatar/avatar00002.jpeg",
+		"nickname": "Mitty爱画画的米蒂",
+		"pickupTotal": 100,
+		"interest": "摄影"
+	},
+	{
+		"avatar":"/user/avatar/avatar00003.jpeg",
+		"nickname": "深海蝶骨",
+		"pickupTotal": 10,
+		"interest": "动漫"
+	},
+	{
+		"avatar":"/user/avatar/avatar00004.jpeg",
+		"nickname": "Roy和Sue的奇妙旅行",
+		"pickupTotal": 10000000,
+		"interest": "美妆"
+	},
+	{
+		"avatar":"/user/avatar/avatar00005.jpeg",
+		"nickname": "Paco_Yao",
+		"pickupTotal": 10,
+		"interest": "建筑"
+	},
+	{
+		"avatar":"/user/avatar/avatar00006.jpeg",
+		"nickname": "amygao",
+		"pickupTotal": 2,
+		"interest": "人物"
+	},
+	{
+		"avatar":"/user/avatar/avatar00007.jpeg",
+		"nickname": "番茄不是西红柿阿",
+		"pickupTotal": 5,
+		"interest": "设计"
+	},
+	{
+		"avatar":"/user/avatar/avatar00008.jpeg",
+		"nickname": "popo靓",
+		"pickupTotal": 7,
+		"interest": "服装"
+	},
+	{
+		"avatar":"/user/avatar/avatar00009.jpeg",
+		"nickname": "sherry4-7",
+		"pickupTotal": 90,
+		"interest": "动物"
+	},
+	{
+		"avatar":"/user/avatar/avatar00010.jpeg",
+		"nickname": "海边的猫和咖啡馆",
+		"pickupTotal": 11,
+		"interest": "植物"
+	}
+]

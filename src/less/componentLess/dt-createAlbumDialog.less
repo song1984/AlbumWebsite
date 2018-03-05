@@ -1,0 +1,91 @@
+.dt-createAlbumDialog-wrap {
+	.dt-base-Modal-dialog{
+		top:80px;
+	}
+	.dt-createAlbumDialog-body{
+		padding: 15px 15px 20px;
+		color:#666;
+		> .dt-createAlbumDialog-body-form{
+			display: inline-block;
+			width:55%;
+			vertical-align: top;
+			> form{
+				> div{
+					font-size: 13px;
+					> span {
+						display: inline-block;
+						width:60px;
+						text-align: right;
+						height: 50px;
+						line-height: 50px;
+						vertical-align: middle;
+						margin-right: 10px;
+					}
+					> label {
+						vertical-align: middle;
+						> span{
+							height: 25px;
+							line-height: 25px;
+							top: 1px;
+						}
+						> input {
+							width: 250px;
+							height: 25px;
+							font-size: 13px;
+							padding:1px;
+							font-family: inherit;
+						}
+					}
+					&:nth-of-type(2){
+						> span{
+							height: 80px;
+							line-height: 15px;
+						}
+						textarea{
+							height: 80px;
+							width: 250px;
+							outline: 0;
+							border:0;
+							resize: none;
+							padding: 0.6em 1px;
+							font-size: 13px;
+							color: #666;
+							font-family: inherit;
+							overflow: auto;
+						}
+					};
+				}
+				> a{
+				    margin-left: 70px;
+				    .create-btn();
+				}
+			}
+		}
+		> .dt-createAlbumDialog-body-hotTags {
+			display: inline-block;
+			width:45%;
+			vertical-align: top;
+			> a{
+				font-size: 12px;
+				display: inline-block;	
+				border-radius:5px;
+				padding: 6px 12px;
+				margin: 3px; 
+				&.dt-createAlbumDialog-body-hotTags-selectedEnable{
+					background-color: #22b4f6;
+					color: white;
+					&:hover{
+						background-color: #1e9ed8;
+					};
+				}
+				&.dt-createAlbumDialog-body-hotTags-selectedDisable{
+					background-color: #eaeaea;
+				}
+			}
+		}
+	}
+
+	.dt-base-Modal-dialog-footer {
+		display: none;
+	}
+}

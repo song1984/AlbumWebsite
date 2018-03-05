@@ -1,0 +1,93 @@
+html,body {
+	margin: 0;
+	padding: 0px;
+	background:url(../../img/sx_background_000.png) #f5f5f5 repeat;
+}
+
+body, button, input, select, td, textarea, th, p, div, span{
+	font-size: @font-size-small;
+	font-family: @font-family-base;
+	color: @font-color-noraml;
+}
+
+img{
+	border:0;
+}
+
+::selection{
+	background-color: rgba(32,176,240,0.3);
+	color: #fff;
+}
+
+a {
+	color: @blue-darker;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.dt-display-hidden{
+	display:none;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0.3;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to{
+		opacity: 0.3;
+	}
+}
+
+.create-btn(@width: 60px; 
+			@height: 28px; 
+			@radius: 3px; 
+			@bgColor: @blue-base; 
+			@hoverBgColor: @blue-dark; 
+			@color: @font-color-lighter; 
+			@font-size: @font-size-small){
+	display: inline-block;
+	text-align: center;
+	background-color: @bgColor;
+	width: @width;
+	height: @height;
+	line-height: @height;
+	color: @color;
+	border-style: none;
+	border-radius: @radius;
+	font-size: @font-size;
+	padding: 0;
+
+	&:hover{
+		background-color: @hoverBgColor;
+	}
+}
+
+main{
+	width: @width-page-normal;
+	margin: 66px auto;
+	display: block;
+}
+
+
+@media screen and (max-width: 1262px){
+	main {
+		width: @width-page-small;
+	}
+}
+
+
+
+
+
+
+
+

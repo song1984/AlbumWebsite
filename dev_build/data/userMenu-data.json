@@ -1,0 +1,22 @@
+{
+	"userMenuData": {
+		"btn": {
+			"imgSrc": "/img/20131219205435_r3Lkv.thumb.48_48_c.jpeg",
+			"name": "我的堆糖"
+		},
+		"menu": [
+			{
+				"link": "",
+				"text": "个人主页"
+			},
+			{
+				"link": "",
+				"text": "账号设置"
+			},
+			{
+				"link": "",
+				"text": "退出"
+			}
+		]
+	}
+}

@@ -1,0 +1,105 @@
+{
+	"logginUserId": "userID00010",
+	"albums": [
+		{
+			"cover": "/user/userID00002/photo/000001.jpg",
+			"albumName": "插画",
+			"previews": [
+				{
+					"src": "/user/userID00002/photo/20170409211403_AwQP2.jpeg"
+				},
+				{
+					"src": "/user/userID00002/photo/20170409211411_8EAwi.jpeg"
+				},
+				{
+					"src": "/user/userID00002/photo/20170511170406_QtsiL.jpeg"
+				}
+			],
+			"author": {
+				"id": "userID00010",
+				"portrait": "/user/userID00002/info/20171017141759_ZvsaJ.jpeg",
+				"nickname": "铅笔"
+			}
+		},
+		{
+			"cover": "/user/userID00002/photo/000002.jpg",
+			"albumName": "风景",
+			"previews": [
+				{
+					"src": "/user/userID00002/photo/20170409211403_AwQP2.jpeg"
+				},
+				{
+					"src": "/user/userID00002/photo/20170409211411_8EAwi.jpeg"
+				},
+				{
+					"src": "/user/userID00002/photo/20170511170406_QtsiL.jpeg"
+				}
+			],
+			"author": {
+				"id": "userID00020",
+				"portrait": "/user/userID00002/info/20171017141759_ZvsaJ.jpeg",
+				"nickname": "铅笔"
+			}
+		},
+		{
+			"cover": "/user/userID00002/photo/00003.jpg",
+			"albumName": "设计",
+			"previews": [
+				{
+					"src": "/user/userID00002/photo/20170409211403_AwQP2.jpeg"
+				},
+				{
+					"src": "/user/userID00002/photo/20170409211411_8EAwi.jpeg"
+				},
+				{
+					"src": "/user/userID00002/photo/20170511170406_QtsiL.jpeg"
+				}
+			],
+			"author": {
+				"id": "userID00020",
+				"portrait": "/user/userID00002/info/20171017141759_ZvsaJ.jpeg",
+				"nickname": "铅笔"
+			}
+		},
+		{
+			"cover": "/user/userID00002/photo/00004.jpg",
+			"albumName": "默认专辑",
+			"previews": [
+				{
+					"src": "/user/userID00002/photo/20170409211403_AwQP2.jpeg"
+				},
+				{
+					"src": "/user/userID00002/photo/20170409211411_8EAwi.jpeg"
+				},
+				{
+					"src": "/user/userID00002/photo/20170511170406_QtsiL.jpeg"
+				}
+			],
+			"author": {
+				"id": "userID00020",
+				"portrait": "/user/userID00002/info/20171017141759_ZvsaJ.jpeg",
+				"nickname": "铅笔"
+			}
+		},
+		{
+			"cover": "/user/userID00002/photo/00005.jpg",
+			"albumName": "收藏",
+			"previews": [
+				{
+					"src": "/user/userID00002/photo/20170409211403_AwQP2.jpeg"
+				},
+				{
+					"src": "/user/userID00002/photo/20170409211411_8EAwi.jpeg"
+				},
+				{
+					"src": "/user/userID00002/photo/20170511170406_QtsiL.jpeg"
+				}
+			],
+			"author": {
+				"id": "userID00020",
+				"portrait": "/user/userID00002/info/20171017141759_ZvsaJ.jpeg",
+				"nickname": "铅笔"
+			}
+		}
+	]
+}

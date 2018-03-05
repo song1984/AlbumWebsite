@@ -1,0 +1,30 @@
+.sx-columnView{
+	.sx-columnView-col{
+		display: inline-block;
+		vertical-align: top;
+		width: 222px;
+		margin-left: 20px;
+
+		&:first-child{
+			margin-left: 0;
+		}
+	}
+}
+
+.columnTypeChange-enter{
+	opacity: 0.1;
+}
+
+.columnTypeChange-enter.columnTypeChange-enter-active{
+	opacity: 1;
+	transition: opacity	800ms ease-in;
+}
+
+.columnTypeChange-leave{
+	opacity: 1;
+}
+
+.columnTypeChange-leave.columnTypeChange-leave-active{
+	opacity: 0.1;
+	transition: opacity	150ms ease-in;
+}

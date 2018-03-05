@@ -1,0 +1,100 @@
+{
+	"menuData": {
+		"navs": [
+			{
+				"linkTo": "/",
+				"linkName": "首页"
+			},
+			{
+				"linkTo": "/",
+				"linkName": "热门"
+			},
+			{
+				"linkTo": "/",
+				"linkName": "良购品"
+			}
+		],
+		"categorys": [
+			{
+				"linkTo": "/",
+				"linkName": "家居生活"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "美食菜谱"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "手工DIY"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "时尚搭配"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "美妆造型"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "婚纱婚礼"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "设计"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "古风"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "插画绘画"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "壁纸"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "头像"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "文字句子"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "旅行"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "摄影"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "人文艺术"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "影音书"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "人物明星"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "动画动漫"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "植物多肉"
+			},
+			{
+				"linkTo": "category/diy",
+				"linkName": "生活百科"
+			}
+		]
+	}
+}

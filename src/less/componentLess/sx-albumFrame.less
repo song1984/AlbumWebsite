@@ -1,0 +1,98 @@
+.sx-albumFrame{
+	width: 212px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    background-color: #fff;
+    &:last-child{
+    	margin-right: 0;
+    }
+
+    >.sx-albumFrame-pics{
+    	position: relative;
+    	cursor: pointer;
+    	>.sx-albumFrame-cover{
+    		height: 240px;
+    		width: 100%;
+    		overflow: hidden;
+    		>img{
+	    		width: 100%;
+	    		height: auto;
+	    	}
+	    	>.sx-albumFrame-cover-transverse{
+	    		width: auto;
+	    		height: 100%;
+	    	}
+    	}
+
+    	>.sx-albumFrame-preview{
+    		width: 100%;
+    		height: 67px;
+    		margin-top: 5px;
+    		overflow: hidden;
+
+    		>img{
+    			width: 67px;
+    			height: auto;
+    			margin-right: 5px;
+    			&:last-child{
+    				margin-right: 0;
+    			}
+    		}
+    	}
+    	>.sx-albumFrame-mask{
+    		position: absolute;
+		    height: calc(~"100% - 10px");
+		    width: calc(~"100% - 10px");
+		    top: 0;
+		    left: 0;
+		    background: url(../../img/photoFrame.png) 0px -72px no-repeat;
+		    text-decoration: none;
+		    color: @gray-lighter;
+		    padding: 5px; 
+		    font-size: 14px;
+		    font-weight: 700;
+		    text-shadow: 0px 1px 3px rgba(0,0,0,.5);
+		    white-space: nowrap;
+		    overflow: hidden;
+		    &:hover{
+		    	background-color: rgba(0,0,0,.1);
+		    }
+    	}
+    } 
+    >.sx-albumFrame-buttons{
+    	margin: 10px 0 5px;
+    	>.sx-albumFrame-author{
+    		position: relative;
+    		>img{
+    			width: 36px;
+			    height: 36px;
+			    border-radius: 50%;
+			    vertical-align: middle;
+			    margin-right: 6px;
+    		}
+
+    		>button{
+    			.create-btn(
+    				@bgColor: @pink-base; 
+    				@hoverBgColor: @pink-dark;
+    				@width: 46px; 
+					@height: 24px; 
+    			);
+    			position: absolute;
+    			right: 0px;
+    			top: 0;
+    			bottom:0;
+    			margin: auto; 
+    		}
+    	}
+    	>.sx-albumFrame-edit{
+    		>button{
+    			.create-btn(@width:204px;);
+    			margin:4px 
+    		}
+    	}
+    }
+}

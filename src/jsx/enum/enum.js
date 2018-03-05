@@ -1,0 +1,7 @@
+export const uploadDialogState = {
+	CLOSE: 'CLOSE',
+	UPLOAD_FORM:'UPLOAD_FORM',
+	UPLOADING: 'UPLOADING',
+	SELECT_ABLUM: 'SELECT_ABLUM',
+	COMPLETE: 'COMPLETE'
+};

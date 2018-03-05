@@ -1,0 +1,85 @@
+{
+	"hotTags":[
+		{
+			"tagName": "家居",
+			"category": "official"
+		},
+		{
+			"tagName": "设计",
+			"category": "official"
+		},
+		{
+			"tagName": "插画", 
+			"category": "official"
+		},
+		{
+			"tagName": "电影", 
+			"category": "official"
+		},
+		{
+			"tagName": "旅行", 
+			"category": "official"
+		},
+		{
+			"tagName": "手工",
+			"category": "official"
+		},
+		{
+			"tagName": "女装", 
+			"category": "official"
+		},
+		{
+			"tagName": "男装", 		
+			"category": "official"
+		},
+		{
+			"tagName": "配饰", 		
+			"category": "official"
+		},
+		{
+			"tagName": "美食", 		
+			"category": "official"
+		},
+		{
+			"tagName": "摄影", 		
+			"category": "official"
+		},
+		{
+			"tagName": "艺术", 
+			"category": "official"
+		},
+		{
+			"tagName": "封面", 
+			"category": "other"
+		},
+		{
+			"tagName": "动漫",
+			"category": "other"
+		},
+		{
+			"tagName": "怀旧", 	
+			"category": "other"
+		},
+		{
+			"tagName": "街拍", 		
+			"category": "other"
+		},
+		{
+			"tagName": "小孩", 
+			"category": "other"
+		},
+		{
+			"tagName": "宠物", 	
+			"category": "other"
+		},
+		{
+			"tagName": "植物",   
+			"category": "other"
+		},
+		{
+			"tagName": "人物",  
+			"category": "other"
+		}
+	]
+}
+

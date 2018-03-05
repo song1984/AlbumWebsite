@@ -1,0 +1,96 @@
+//color 
+// gray
+@gray-base:                 #666;    // 灰色
+@gray-dark:                 #444;    // 深灰 接近黑色
+@gray-light:                #dfdfdf; // 浅灰色 
+@gray-lighter:              #f1f1f1;  
+
+// blue
+@blue-base:                 #22b4f6;
+@blue-dark:                 #1e9ed8;
+@blue-darker:               #5678a0;
+
+// pink
+@pink-base:                 #ff4466;
+@pink-dark:                 #e03c5a;
+
+// yellow
+@yellow-base:               #ffbb33; // 类似金黄色
+@yellow-dark:               darken(@yellow-base, 10%);
+
+// alert color
+// warning
+@warning-bgColor:           #fcf8e3;
+@warning-header-color:      antiquewhite;
+@warning-border-color:      #faebcc;
+@warning-font-color:        #8a6d3b;           
+
+// font-color
+@font-color-noraml:         @gray-base;
+@font-color-dark:           @gray-dark;
+@font-color-light:          @gray-light;
+@font-color-lighter:        @gray-lighter;
+
+// btn-color
+@btn-disable:               @gray-base;
+@btn-normal:                @blue-base;
+@btn-hover:                 @blue-darker;
+
+// border-color
+@border-color:              @gray-light;
+
+// link-color
+@link-color:                @blue-darker;
+
+// page size
+@width-page-normal:			1200px;		// 正常显示
+@width-page-small:			960px;		// 紧凑显示 
+
+@screen-max-width:          1262px;		// @media 切换的点
+
+// font-family
+@font-family-sans-serif:    "Helvetica Neue", tahoma, Helvetica, Arial, sans-serif;
+@font-family-serif:         Georgia, "Times New Roman", Times, serif;
+@font-family-monospace:     Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base:          @font-family-sans-serif;
+
+// font-size
+@font-size-base:            14px;
+@font-size-larger:          ceil((@font-size-base * 1.25)); // ~18px
+@font-size-large:			ceil((@font-size-base * 1.14)); // ~ 16px
+@font-size-small:           ceil((@font-size-base * 0.92)); // ~13px
+@font-size-smaller:         ceil((@font-size-base * 0.85));    // ~12px
+
+@font-size-h1:              floor((@font-size-base * 2.6)); // ~36px
+@font-size-h2:              floor((@font-size-base * 2.15)); // ~30px
+@font-size-h3:              ceil((@font-size-base * 1.7)); // ~24px
+@font-size-h4:              ceil((@font-size-base * 1.25)); // ~18px
+@font-size-h5:              @font-size-base;
+@font-size-h6:              ceil((@font-size-base * 0.85)); // ~12px
+
+h1{
+	font-size: @font-size-h1;
+}
+
+h2{
+	font-size: @font-size-h2;
+}
+
+h3{
+	font-size: @font-size-h3;
+}
+
+h4{
+	font-size: @font-size-h4;
+}
+
+h5{
+	font-size: @font-size-h5;
+}
+
+h6{
+	font-size: @font-size-h6;
+}
+
+
+

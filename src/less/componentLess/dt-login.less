@@ -1,0 +1,135 @@
+
+.dt-login {
+	font-size: 12px;
+	>.dt-base-Modal {
+		position: absolute;
+		z-index: 1;
+		> .dt-base-Mask {
+			> .dt-base-Modal-dialog {
+				> .dt-base-Modal-dialog-body {
+					.dt-login-form {
+						display: inline-block;
+						vertical-align: top;
+						padding: 40px 0;
+
+						ul {
+							list-style: none;
+							padding: 0 40px;
+
+							li{
+								margin-top:16px;
+								&:first-child{
+									margin-top:0;
+								}
+								> a {
+									color: #5678a0;
+									float: right;
+									&:hover{
+										cursor: pointer;
+										text-decoration: underline;
+										color: red;
+									}
+								}
+
+								> .dt-base-dtLabel {
+									> input {
+										height: 38px;
+										line-height: 38px;
+										padding: 0;
+										width: 260px;
+										outline-width:0;
+										font-size: 14px;
+									}
+									> span {
+										top: 0;
+										bottom:0;
+										height: 20px;
+										line-height: 20px;
+
+									}
+								}
+							}
+							
+							input[type="checkbox"]{
+								width: auto;
+								vertical-align: middle;
+								border:0;
+								padding: 0px;
+								margin-right: 0.3em;
+							}
+						}
+
+						button {
+							margin-top: 15px;
+							letter-spacing: 3px;
+							.create-btn(@width:270px; @height:40px; @font-size: @font-size-base;);
+						}
+
+						.dt-login-thirdPart {
+							margin-top: 22px;
+							> a {
+								float:none;
+								display:inline-block;
+								height: 25px;
+								width: 25px;
+								margin-left: 38px;
+								background-image:url("../../img/20150115153954_UWNXn.png");
+								background-repeat: no-repeat;
+							}
+
+							> a:nth-child(1){
+								margin-left: 0;			
+								background-position: -35px -3px;
+							}
+
+							> a:nth-child(2){
+								background-position: 0px -3px;
+							}
+
+							> a:nth-child(3){
+								background-position: -67px -3px;
+							}
+
+							> a:nth-child(4){
+								background-position: -101px -3px;
+							}
+
+							> a:nth-child(5){
+								background-position: -134px -3px;
+							}
+						}
+					}
+
+					.dt-login-QRCode {
+						display: inline-block;
+						vertical-align: top;
+						padding: 0px 50px;
+						margin: 40px 0;
+						border-left: 1px solid rgba(0,0,0,.1);
+						width: 200px;
+
+						> img {
+							margin: 25px 0 0px 0; 
+						}
+
+						> p{
+							text-align:center;
+							padding: 10px 30px 20px 20px;
+							font-size: 14px;
+						}
+					}
+				}
+
+				> .dt-base-Modal-dialog-footer {
+					> a{
+						color: #5678a0;
+						cursor: pointer;
+						&:hover{
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+}

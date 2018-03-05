@@ -1,0 +1,45 @@
+.sx-scrollLeftComponent-wrap{
+	width: 100%;
+	position: relative;
+
+	>.sx-scrollLeftComponent{
+		padding: 2px 0;
+		overflow: hidden;
+
+		>.sx-scrollLeftComponent-content{
+			white-space: nowrap;
+		}
+
+		&.sx-scrollLeftComponent-wide {
+			>.sx-scrollLeftComponent-content{
+				padding: 0; 
+			}
+		}
+	}
+
+	>.sx-scrollLeftComponent-button{	
+		>.sx-scrollLeftComponent-button-left,.sx-scrollLeftComponent-button-right{
+			position: absolute;
+		    height: 40px;
+		    width: 30px;
+		    top: 0;
+		    bottom: 0;
+		    margin: auto;
+		}
+		>.sx-scrollLeftComponent-button-left{
+			left: 0;
+			background: url(../../img/000099.png) -1016px -284px rgba(255,255,255,.7) no-repeat;
+			&:hover{
+				background: url(../../img/000099.png) -1016px -234px rgba(0,0,0,.3) no-repeat;
+			}
+		}
+		>.sx-scrollLeftComponent-button-right{
+			right: 0;
+			background: url(../../img/000099.png) -1051px -284px rgba(255,255,255,.7) no-repeat;
+			&:hover{
+				background: url(../../img/000099.png) -1051px -234px rgba(0,0,0,.3) no-repeat;
+			}
+		}
+	}
+}
+

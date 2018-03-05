@@ -1,0 +1,30 @@
+.dt-base-dtLabel{
+	min-height: 25px;
+	min-width: 180px;
+	position: relative;
+	border: 1px solid @gray-light;
+	display: inline-block;
+	overflow: hidden; 
+	background-color: white;
+	font-size: 13px;
+	text-indent: 0.6em;
+
+	> span {
+		position: absolute;
+		display: inline-block;
+		left: 0;
+		margin: auto;
+		color: @font-color-light;
+		white-space: nowrap;
+		cursor: text;
+	}
+	
+	> input {
+		white-space: nowrap;
+		outline-style: none;
+		outline-width: 0;
+		background-color: transparent;
+		border: 0;
+		color: @font-color-noraml;	
+	}
+}

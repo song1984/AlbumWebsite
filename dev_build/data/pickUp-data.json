@@ -1,0 +1,26 @@
+{
+	"albums": [
+		{
+			"albumID": "albumID11111",
+			"albumName": "实验专辑"
+		},
+		{
+			"albumID": "albumID22222",
+			"albumName": "实验专辑2"
+		},
+		{
+			"albumID": "albumID33333",
+			"albumName": "实验专辑3"
+		},
+		{
+			"albumID": "albumID444444",
+			"albumName": "实验专辑4"
+		}
+	],
+	"userID": "XXX",
+	"img": {
+		"imgID": "imgID22222",
+		"title": "实验图片",
+		"src": "/user/userID00002/photo/vf0fdwkg5fj9955.jpg"
+	}
+}

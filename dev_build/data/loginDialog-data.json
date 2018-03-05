@@ -1,0 +1,31 @@
+{
+	"otherLogin": [
+		{
+			"src": "/img/qq.png",
+			"href": "###",
+			"alt": "QQ"
+		},
+		{
+			"src": "/img/sina.png",
+			"href": "###",
+			"alt": "sina"
+		},
+		{
+			"src": "/img/douban.png",
+			"href": "###",
+			"alt": "DouBan"
+		},
+		{
+			"src": "/img/taobao.png",
+			"href": "###",
+			"alt": "taobao"
+		},
+		{
+			"src": "/img/tencent.png",
+			"href": "###",
+			"alt": "tencent"
+		}
+	],
+	"registerLink": "register",
+	"resetPassword": "/resetPassword"
+}
